@@ -1,0 +1,33 @@
+body{
+    background-color: #424242;
+    color:#fff;
+}
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-container .clock-items{
+    padding-left: 10px;
+}
+.clock-container .clock-items p{
+    background-color: #fff;
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
