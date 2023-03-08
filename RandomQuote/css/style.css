@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgb(69, 38, 3);
+    color: white;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.box{
+    margin-top: 60px;
+    background-color: rgb(170, 142, 111);
+    display: inline-block;
+    width: 60%;
+    padding: 60px;
+    border-radius: 30px;
+}
+.box .button{
+    background-color: rgb(69, 38, 3);
+    color: white;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
