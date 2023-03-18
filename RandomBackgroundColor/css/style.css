@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+.buton{
+    margin-left: 630px;
+    margin-top: 300px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
