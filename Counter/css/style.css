@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    margin-top: 130px;
+}
+
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+    color: green;
+}
+button{
+    padding: 10px 50px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
