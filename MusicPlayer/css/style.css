@@ -1,0 +1,26 @@
+audio {
+    width: 500px;
+    height: 30vh;
+    margin: 50px auto;
+    display: block;
+    color: red;
+  }
+
+  .buttons{
+    text-align: center;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
