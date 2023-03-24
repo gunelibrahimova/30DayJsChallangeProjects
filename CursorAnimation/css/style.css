@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/169/402/non_2x/abstract-shapes-and-line-in-nude-pastel-colors-neutral-background-in-minimalist-style-contemporary-illustration-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    height: 100vh;
+}
+
+.content p {
+    width: 700px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    left: 0%;
+    top: 0%;
+    pointer-events: none;
+    transition: .1s;
+}
+
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #c6c6c6;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    left: 0%;
+    top: 0%;
+    pointer-events: none;
+    transition: .15s;
+    background-color: black;
+}
+
+.content:hover ~ .cursor{
+    transform: translate(-50%, -50%) scale(1.5);
+    background-color: wheat;
+    opacity: 0.5;
+}
+
+.content:hover ~ .cursor2{
+    opacity: 0;
+}
