@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    background-color: rgb(150, 182, 255);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Finger Paint", cursive;
+  }
+  
+  #text {
+    color: #8a2be2;
+    position: absolute;
+    font-size: 4rem;
+    animation: fade 1s ease;
+    user-select: none;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @media screen and (max-width: 1007px) {
+    #text,
+    #canvas {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    html {
+      font-size: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    html {
+      font-size: 7px;
+    }
+  }
+  
