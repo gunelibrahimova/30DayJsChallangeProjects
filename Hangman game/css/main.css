@@ -1,0 +1,117 @@
+body {
+  background-color: #3a444e;
+  color: #fff;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+body .containerr {
+  padding: 20px 20px;
+  height: 450px;
+  width: 450px;
+  position: relative;
+}
+
+body .containerr .grafik {
+  fill: transparent;
+  stroke: #fff;
+}
+
+body .containerr .grafik .item {
+  display: none;
+}
+
+body .containerr #wrong-letters {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+body .containerr #word {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body .containerr #word .letter {
+  border-bottom: 3px solid yellow;
+  font-size: 30px;
+  margin: 0 3px;
+  height: 40px;
+  width: 25px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #popup-container {
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #popup-container .popup {
+  background-color: #3ce93c;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+          box-shadow: #555bff 0px 0px 0px 3px, #1fc11b 0px 0px 0px 6px, #ffd913 0px 0px 0px 9px, #ff9c55 0px 0px 0px 12px, #ff5555 0px 0px 0px 15px;
+}
+
+body #popup-container .popup button {
+  border: 2px solid #04782c;
+  background-color: #91ff00;
+  border-radius: 5px;
+}
+
+body #message {
+  background-color: #fc6e6e;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px 80px;
+  position: absolute;
+  bottom: -80px;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+body #message.show {
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+/*# sourceMappingURL=main.css.map */
